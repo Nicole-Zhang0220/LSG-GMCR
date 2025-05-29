@@ -1,0 +1,47 @@
+# Deep Learning Framework
+tensorflow==2.6.0
+keras==2.5.0
+
+# Data Processing
+pandas==1.3.0
+numpy==1.21.0
+
+# Machine Learning
+scikit-learn==0.24.2
+
+# Natural Language Processing
+gensim==4.0.1
+jieba==0.42.1
+
+# Visualization
+matplotlib==3.4.2
+seaborn==0.11.1
+
+# Text Processing
+keras-preprocessing==1.1.2
+
+# Additional Dependencies
+beautifulsoup4==4.9.3
+requests==2.26.0
+networkx==2.6.1
+scipy==1.7.0
+
+#Create environment.yml for Conda users
+name: lsg-gmcr
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.8
+  - tensorflow-gpu=2.6.0
+  - pandas=1.3.0
+  - numpy=1.21.0
+  - scikit-learn=0.24.2
+  - matplotlib=3.4.2
+  - seaborn=0.11.1
+  - pip
+  - pip:
+    - gensim==4.0.1
+    - jieba==0.42.1
+    - beautifulsoup4==4.9.3
+    - keras-preprocessing==1.1.2
