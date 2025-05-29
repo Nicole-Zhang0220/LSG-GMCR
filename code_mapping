@@ -1,0 +1,14 @@
+# Code-to-Paper Mapping
+
+## Section 4.1.1 - Data Collection
+- Code for posts: `code/01-data collection/posts.py`
+- Code for comments: `code/01-data collection/comments.py`
+- Code for replies: `code/01-data collection/replies.py`
+
+## Section 4.1.2 - Feature Extraction
+- Sentiment Analysis: `code/02-feature extraction/LSTM+CNN+Word2Vec for SEC.py`
+
+## Section 4.1.3 - Meta-Clustering
+- Algorithm 1: `code/03-clustering/DBSCAN for TSD.py`
+               `code/03-clustering/FCM for STD.py`
+               `FCM for final clustering.py`
