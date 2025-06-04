@@ -12,6 +12,3 @@
 - Algorithm 1: `code/03_clustering/DBSCAN_TSD.py`
                `code/03_clustering/FCM_STD.py`
                `code/03_clustering/FCM_final_clustering.py`
-
-## Section 4.2 - LSG-GMCR
-- Exe: `code/04_gmcr_analysis/GMCR_IIg.exe`
